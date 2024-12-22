@@ -1,9 +1,9 @@
 # Smart IoT Autoflow Well Cap and Management System
 
-## Overview
+## Overview  
 
 We developed a **Smart IoT Autoflow Well Cap and Management System** for artesian wells, aiming to regulate and optimize the uncontrolled flow of water caused by underground pressure. Artesian wells are natural sources of water that often flow uncontrollably, leading to significant water wastage, environmental challenges, and in some cases, contributing to landslides. Our solution addresses these issues by creating a smart system that automatically manages water flow and pressure to ensure sustainable and safe water usage.
-
+![System Overview](appgif.gif)
 ## Problem Statement
 
 Artesian wells, due to their high underground pressure, often experience uncontrolled water flow. This uncontrolled flow not only leads to wastage but also poses safety risks, including landslides caused by excess water. Our research revealed that no existing solution addressed the challenges posed by artesian well pressure and flow regulation, which made this project an innovative approach to an unresolved problem.
@@ -13,7 +13,7 @@ Artesian wells, due to their high underground pressure, often experience uncontr
 Our **Smart IoT Autoflow Well Cap and Management System** uses modern technologies to measure, regulate, and monitor the water flow from artesian wells. Here’s how we tackled the problem:
 
 ### Key Components:
-- **Pressure Transducer**: A device used to measure the pressure exerted by the water and convert it into a corresponding height of the water column.
+- **Pressure Transducer**: A sensor used to measure the pressure exerted by the water and convert it into a corresponding height of the water column.
 - **IoT Integration**: The system uses an IoT-based platform to monitor and control water flow automatically in real-time, adjusting for pressure variations and preventing wastage.
 - **Automatic Flow Regulation**: Based on pressure data, the system adjusts the flow of water from the artesian well, ensuring safe and controlled release.
   
@@ -21,7 +21,7 @@ Our **Smart IoT Autoflow Well Cap and Management System** uses modern technologi
 - **Real-Time Monitoring**: Water pressure is continuously monitored, and any sudden changes in pressure trigger an automatic adjustment to water flow.
 - **Pressure Control**: The system is designed to withstand extreme pressure and adjust the water flow accordingly, minimizing wastage.
 - **Safety Measures**: The system helps prevent environmental hazards such as landslides by regulating excessive water flow.
-- **Sustainable Water Usage**: By optimizing the water flow, the system ensures that the water is used efficiently, reducing wastage.
+- **Sustainable Water Usage**: By optimizing the water flow, the system ensures that the water is used efficiently, reducing wastage. ![Pressure Transducer Setup](appdashboard.png)
 
 ## Challenges Faced
 - **High Water Pressure**: Artesian wells are characterized by extremely high water pressure, which posed a significant challenge in designing a system that could withstand and regulate this pressure effectively.
@@ -39,7 +39,7 @@ The **Smart IoT Autoflow Well Cap and Management System** is built on a feedback
 
 To set up the **Smart IoT Autoflow Well Cap and Management System**, follow the steps below:
 
-1. **Install Pressure Transducer**: Attach the pressure transducer to the artesian well to continuously measure the water pressure.
+1. **Install AutoFlow Well Cap**: Place our cap to the artesian well to continuously measure the water pressure.
 2. **Connect to IoT Platform**: Integrate the system with an IoT platform to enable real-time monitoring and automatic flow adjustments.
 3. **Configure Flow Control Mechanism**: Ensure the automatic flow control valves are in place to regulate water flow based on pressure readings.
 
@@ -54,17 +54,12 @@ To get started with the project:
 
 2. Navigate to the project directory:
    ```bash
-   cd smart-iot-autoflow-well-system
+   cd Dashboard
    ```
 
-3. Install the required dependencies:
+3. Launch the system and monitor the artesian well:
    ```bash
-   npm install
-   ```
-
-4. Launch the system and monitor the artesian well:
-   ```bash
-   npm start
+    python login_page.py
    ```
 
 ## Contributing
@@ -88,11 +83,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 To better understand the system, we have uploaded several images of the Smart IoT Autoflow Well Cap and its components. You can view the images below:
 
-![System Overview](appgif.gif)
-
-![Pressure Transducer Setup](appdashboard.png)
 
 ![IoT Integration](Indiamap.png)
+![IoT Integration](Hardwareimage.jpg)
+![IoT Integration](hardwareimage2.jpg)
 
 Feel free to explore the images to see the design and implementation of the system.
 
